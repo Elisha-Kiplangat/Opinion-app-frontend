@@ -3,9 +3,10 @@ import React from 'react'
 const HeroSection = () => {
   return (
     <div>
-        <section className="bg-gradient-to-r from-blue-200 to-indigo-200 h-screen flex flex-col justify-center items-center">
+        <section className="bg-gradient-to-r from-blue-200 to-indigo-200 h-svh flex justify-center items-center">
+          <div className="container flex flex-col justify-center items-center">
             <div className="text-white font-extrabold text-5xl font-sans">
-            Opinion
+              Opinion
             </div>
             <div className="text-white font-medium text-lg mt-4">
             A simple blog platform
@@ -18,6 +19,7 @@ const HeroSection = () => {
                 Learn More
             </button>
             </div>
+          </div>
         </section>
     </div>
   )
