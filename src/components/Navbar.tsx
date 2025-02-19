@@ -32,7 +32,7 @@ const links : TLink[] = [
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 bg-gradient-to-r from-blue-500 to-indigo-500 py-4 w-full shadow-md">
+    <nav className="fixed top-0 bg-gradient-to-r from-blue-400 to-indigo-400 py-4 w-full shadow-md">
       <div className="container flex flex-row justify-between items-center">
         
         <div className="text-2xl font-extrabold text-white font-sans">
