@@ -3,7 +3,7 @@ import HeroSection from "../components/HeroSection";
 import Content from "@/components/Content";
 import Categories from "@/components/Categories";
 import GetStarted from "@/components/GetStarted";
-import PropertySelection from "@/components/PropertySelection";
+// import PropertySelection from "@/components/PropertySelection";
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <Categories />
       <GetStarted />
 
-      <PropertySelection />
+      {/* <PropertySelection /> */}
     </>
   );
 }
